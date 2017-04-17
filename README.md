@@ -78,6 +78,11 @@ Our Openshift instance is configured to use GlusterFS for persistent volumes; in
 We use Prometheus (also running on Openshift) to collect start/end times for Jobs (via a Pushgateway). This helps us monitor whether a Job started and completed in the expected time frames.
 Also, we leverage the `luigi-slack` extension to collect stats and logs on failed Luigi tasks.
 
+# More Resources
+
+- Run Luigi Central Scheduler on Openshift 3:
+  + https://github.com/colemanja91/os3-luigi
+
 # What's next?
 
 - Exploring uses of Spark, HDFS, and other integrations
